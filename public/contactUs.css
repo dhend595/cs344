@@ -40,3 +40,13 @@ body {
 .topnav-right {
     float: right;
 }
+
+#main {
+    background-color: #778da9;
+}
+
+#content {
+    align-content: center;
+    background: #415a77;
+    color: #d8d8d8;
+}
