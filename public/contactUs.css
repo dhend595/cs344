@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    background-color: #778da9;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.topnav a:hover {
+    background-color: #415a77;
+    color: #e0e1dd;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
