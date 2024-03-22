@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let carousel = document.querySelector(".carousel");
     let items = carousel.querySelectorAll(".item");
     let dotsContainer = document.querySelector(".dots");
+    let dropDown = document.querySelector(".dropdown");
+    let dropdownItems = dropDown.querySelectorAll(".dropdown-item");
 
+    
     // Insert dots into the DOM
     items.forEach((_, index) => {
       let dot = document.createElement("span");
