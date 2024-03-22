@@ -50,3 +50,30 @@ body {
     background: #415a77;
     color: #d8d8d8;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1b2a;
+}
+
+table {
+    border-spacing: 1em;
+}
+
+.footerHeader {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footerData {
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #b6b6b6;
+    text-decoration: none;
+}

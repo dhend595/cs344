@@ -23,31 +23,81 @@
             <a href="./contactUs.html">Support</a>
             <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <i class="fa-solid fa-mobile-screen-button"></i>
         </nav>
     </header>
     <div id="main">
-        <div id="content">
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                    <label for="name">Enter your name: </label>
-                    <input type="text" name="name" id="name" required />
-                </div>
-                <div class="form-example">
-                    <label for="email">Enter your email: </label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-                <div class="form-example">
-                    <label for="name">Explain your issue: </label>
-                    <textarea id="w3review" name="w3review" rows="5" cols="50"></textarea>
-                </div>
-                <div class="form-example">
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </div>
-            </form>
-
+        <div class="welcome">
+            <h1>Welcome to Gizmodo Support</h1>
+            <h3>We're here to help</h4>
         </div>
+        <div id="formContent">
+            <form onsubmit="event.preventDefault();" role="search">
+                <input id="search" type="search" placeholder="Search..." autofocus required />
+                <button type="submit">Go</button>
+            </form>
+        </div>
+        <div class="buttonContent">
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <p>PC</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Console</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-headphones"></i>
+                <p>Lifestyle</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <p>Community</p>
+            </div>
+        </div>
+        </form>
     </div>
+    </div>
+
+    <footer class="footer">
+        <table>
+            <tr class="footerHeader">
+                <td>Shop</td>
+                <td>Explore</td>
+                <td>Support</td>
+                <td>Company</td>
+                <td>Follow Us</td>
+            </tr>
+            <tr class="footerData">
+                <td><a href="">Store</a></td>
+                <td><a href="">Technology</a></td>
+                <td><a href="">Get Help</a></td>
+                <td><a href="">About Us</a></td>
+                <td><a href=""><i class="fa-brands fa-facebook"></i></a></td>
+            </tr>
+            <tr class="footerData">
+                <td><a href="">Store Locator</a></td>
+                <td><a href="">Chroma RGB</a></td>
+                <td><a href="">Registration & Warrenty</a></td>
+                <td><a href="">Careers</a></td>
+                <td><a href=""><i class="fa-brands fa-twitter"></i></a></td>
+            </tr>
+            <tr class="footerData">
+                <td><a href="">Education</a></td>
+                <td><a href="">Concepts</a></td>
+                <td><a href="">Store Support</a></td>
+                <td><a href="">Newsroom</a></td>
+                <td><a href=""><i class="fa-brands fa-instagram"></i></a></td>
+            </tr>
+            <tr class="footerData">
+                <td><a href="">Exclusives</a></td>
+                <td><a href="">Esports</a></td>
+                <td><a href="">Support Videos</a></td>
+                <td><a href="">Contact Us</a></td>
+                <td><a href=""><i class="fa-brands fa-tiktok"></i></a></td>
+            </tr>
+        </table>
+    </footer>
 </body>
 
 </html>

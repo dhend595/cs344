@@ -45,8 +45,79 @@ body {
     background-color: #778da9;
 }
 
-#content {
-    align-content: center;
+.welcome {
+    text-align: center;
+    margin: 50px;
+}
+
+#formContent {
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background: #415a77;
     color: #d8d8d8;
+}
+
+form {
+    position: relative;
+    width: 30rem;
+    border-radius: 30px;
+}
+
+input,
+button {
+    border-radius: 25px;
+    border: 0;
+    font-size: 1.8rem;
+}
+
+input[type="search"] {
+    outline: 0;
+    width: 100%;
+    background: white;
+    padding: 0 1.6rem;
+    z-index: 1;
+}
+
+button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.buttonContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1b2a;
+}
+
+table {
+    border-spacing: 1em;
+}
+
+.footerHeader {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footerData {
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #b6b6b6;
+    text-decoration: none;
 }
